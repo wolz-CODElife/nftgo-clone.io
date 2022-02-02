@@ -122,27 +122,27 @@ export const menuList = [
             {
                 title: "Discord",
                 icon: <IconsDiscord />,
-                link: ""
+                link: "https://discord.gg/38E4sEaFJr"
             },
             {
                 title: "Blog",
                 icon: <IconsBlog />,
-                link: ""
+                link: "https://mirror.xyz/nftgoio.eth"
             },
             {
                 title: "Docs",
                 icon: <IconsDocs />,
-                link: ""
+                link: "https://docs.nftgo.io/"
             },
             {
                 title: "Listing Request",
                 icon: <IconsListingRequest />,
-                link: ""
+                link: "https://docs.nftgo.io/guide/listing-criteria"
             },
             {
                 title: "Data API",
                 icon: <IconsDataApi />,
-                link: ""
+                link: "#"
             }
         ]
     }

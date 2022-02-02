@@ -44,7 +44,7 @@ export const FooterHeading = styled.div`
                 border-radius: 10px;
                 padding: 2px;
                 display: flex;
-                z-index: 10;
+                z-index: 0;
                 
                 input {
                     flex: 1;

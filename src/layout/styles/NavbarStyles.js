@@ -11,7 +11,8 @@ export const FixedTop = styled.div`
     width: 100%;
     padding-right: 40px;
     background: ${lightColors.white};
-    color: ${lightColors.black}
+    color: ${lightColors.black};
+    box-shadow: 0px 4px 6px #8a8a8a1a;
     position: fixed;
     top: 0px;
 
@@ -63,7 +64,7 @@ export const FixedTop = styled.div`
             padding: 24px 8px;
             box-shadow: rgba(224, 224, 224, 0.4) 0px 4px 8px 0px;
             border-radius: 14px;
-            z-index: 1000;
+            z-index: 1000000;
 
             .header {
                 width: 100%;

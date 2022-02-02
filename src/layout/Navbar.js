@@ -122,7 +122,7 @@ const Navbar = () => {
               }
             </div>
           </div>
-          <Link to="/wallet" className='profile'><IconProfile /></Link>
+          <Link to="/signin" className='profile'><IconProfile /></Link>
         </div>
       </FixedTop>
       <div style={{ height: '80px', width: '100%' }}></div>

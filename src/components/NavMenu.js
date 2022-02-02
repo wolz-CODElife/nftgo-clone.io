@@ -25,7 +25,7 @@ const NavMenu = ({title, link, dropdown}) => {
                 { openDropdown &&
                     <Popover>
                         {dropdown.map(item => (
-                            <Link to={item.link}><span> {item.icon} {item.title}</span><FaChevronCircleRight /> </Link>
+                            <a href={item.link} target={item.link.includes("http") ? "_blank" : "_self"} rel="noopener noreferrer"><span> {item.icon} {item.title}</span><FaChevronCircleRight /> </a>
                         ))}
                     </Popover>
                 }
