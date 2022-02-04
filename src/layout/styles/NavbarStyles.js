@@ -15,6 +15,7 @@ export const FixedTop = styled.div`
     box-shadow: 0px 4px 6px #8a8a8a1a;
     position: fixed;
     top: 0px;
+    z-index: 1200;
 
     .brand {
         margin: 0px 48px;

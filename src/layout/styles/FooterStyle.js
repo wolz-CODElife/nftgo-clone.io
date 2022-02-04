@@ -27,13 +27,12 @@ export const FooterHeading = styled.div`
             margin-left: 40px;
             
             svg {
+                position: absolute;
                 height: 100%;
                 width: 100%;
-                position: absolute;
                 top: 0px;
                 bottom: 0px;
                 display: block;
-                z-index: 0;
             }
             
             .form {
@@ -44,6 +43,7 @@ export const FooterHeading = styled.div`
                 border-radius: 10px;
                 padding: 2px;
                 display: flex;
+                position: static;
                 z-index: 0;
                 
                 input {

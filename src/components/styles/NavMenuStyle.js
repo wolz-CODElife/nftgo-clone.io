@@ -2,7 +2,6 @@ import styled from "styled-components"
 import { lightColors, typographySize } from "../../helpers/theme"
 
 export const MenuItem = styled.div`
-position: relative;
 
 a {
     text-decoration: none;
@@ -22,12 +21,12 @@ width: 215px;
 cursor: pointer;
 background: #fff;
 border-radius: 14px;
-z-index: 10000;
 box-shadow: rgba(224, 224, 224, 0.4) 0px 4px 8px 0px;
 padding: 6px;
 padding-top: 8px;
 overflow: auto;
 max-height: 420px;
+z-index: 1000;
 
 &::-webkit-scrollbar {
 width: 4px;

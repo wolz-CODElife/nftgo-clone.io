@@ -34,11 +34,17 @@ export const SigninForm = styled.div`
             margin-bottom: 16px;
             border-radius: 14px;
             cursor: pointer;
+            transition: all ease 0.4s;
 
             img {
                 width: 48px;
                 height: 48px;
                 margin: 0px 48px;
+            }
+
+            &:hover {
+                border: 1px solid #5A66F9;
+                background: ${lightColors.bgBlue};
             }
         }
 
