@@ -13,6 +13,11 @@ export const NFTDropsContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transition: ease 0.4s;
+
+    &:hover {
+        box-shadow: rgba(90, 96, 249, 0.2) 0px 4px 10px 0px;
+    }
     
     .header {
         border-bottom: 1px solid #EDEDF1;

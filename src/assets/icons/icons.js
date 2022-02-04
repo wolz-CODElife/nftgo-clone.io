@@ -294,5 +294,11 @@ export const IconAddCalendar = () => {
     )
 }
 
+export const IconInfo = () => {
+    return (
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" className="____tab___infoIcon__1v5gy"><path d="M7 0a7 7 0 100 14A7 7 0 007 0zm0 2.868a1.002 1.002 0 110 2.004 1.002 1.002 0 010-2.004zm1.503 8.266H5.496v-.5h.5v-4.51h-.5v-.5H8v5.01h.5v.5h.002z" fill="#BDBDBD"></path></svg>
+    )
+}
+
 
 

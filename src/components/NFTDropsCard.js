@@ -4,6 +4,7 @@ import { ModalContainer, NFTDropsContainer } from './styles/NFTDropsCardStyles';
 import { IconAddCalendar, IconCloseSearch, IconDate, IconPriceTag, IconsDiscord, IconTotal, IconTwitter, IconWebsite } from '../assets/icons/icons';
 import Countdown from 'react-countdown'
 import Modal from '@mui/material/Modal';
+import Tooltip from '@mui/material/Tooltip';
 
 
 const NFTDropsCard = ({image, title, tag, desc, price, total, date, website, twitter, discord}) => {
@@ -114,9 +115,21 @@ return (
                     }
                     <div className="footer">
                         <div className="links">
-                            {website && <a href={website} target="_blank" rel='noopener noreferrer'><IconWebsite /></a>}
-                            {twitter && <a href={twitter} target="_blank" rel='noopener noreferrer'><IconTwitter /></a> }
-                            {discord && <a href={discord} target="_blank" rel='noopener noreferrer'><IconsDiscord /></a> }
+                            {website && 
+                                <Tooltip title="Website" arrow placement='top'>
+                                    <a href={website} target="_blank" rel='noopener noreferrer'><IconWebsite /></a>
+                                </Tooltip>
+                            }
+                            {twitter && 
+                                <Tooltip title="Twitter" arrow placement='top'>
+                                    <a href={twitter} target="_blank" rel='noopener noreferrer'><IconTwitter /></a> 
+                                </Tooltip> 
+                            }
+                            {discord && 
+                                <Tooltip title="Discord" arrow placement='top'>
+                                    <a href={discord} target="_blank" rel='noopener noreferrer'><IconsDiscord /></a>
+                                </Tooltip> 
+                            }
                         </div>
                         <div className="event">
                             { !completed && <a href={calendarLink} target="_blank" rel="noopener noreferrer"><IconAddCalendar /></a> }
