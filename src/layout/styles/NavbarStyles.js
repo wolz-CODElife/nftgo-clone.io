@@ -202,9 +202,10 @@ export const FixedTop = styled.div`
             svg {
                 width: 28px;
                 height: 28px;
+                fill: ${lightColors.grey};
 
                 &: hover {
-                    color: ${lightColors.lightBlue};
+                    fill: ${lightColors.lightBlue};
                 }
             }
 

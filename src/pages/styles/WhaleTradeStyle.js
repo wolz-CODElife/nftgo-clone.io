@@ -1,8 +1,7 @@
 import breakpoint from "../../helpers/breakpoint";
 import styled from "styled-components" 
-import { lightColors, typographySize } from "../../helpers/theme";
 
-export const WhaleTrackingPage = styled.div`
+export const WhaleTradePage = styled.div`
     padding: 24px 76px;
     display: flex;
     flex-direction: column;

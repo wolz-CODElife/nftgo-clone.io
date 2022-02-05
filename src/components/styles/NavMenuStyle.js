@@ -48,7 +48,7 @@ a {
     height: 18px;
     width: 18px;
     margin-right: 10px;
-    color: ${lightColors.lightBlue};
+    fill: ${lightColors.grey};
 
     &:nth-child(2) {
         display: none;
@@ -60,7 +60,7 @@ a {
       color: ${lightColors.lightBlue};
 
       svg {
-          color: ${lightColors.lightBlue};
+          fill: ${lightColors.lightBlue};
           
           &:nth-child(2) {
               display: unset;
