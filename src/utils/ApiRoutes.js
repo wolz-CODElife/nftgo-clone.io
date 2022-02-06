@@ -1,3 +1,5 @@
+const HotSearchEngine = "https://api.nftgo.io/api/v1/collections/hot?limit=6&withStat=1"
+
 const MostWhalesInvolved = "https://api.nftgo.io/api/v1/whales/data/list/whaleBought?by=WhaleNum&asc=-1&timeRank=1h&action=buy"
 
 const WhaleBought = "https://api.nftgo.io/api/v1/whales/data/list/whaleBought?by=WhaleNum&asc=-1&timeRank=1h&action=buy"

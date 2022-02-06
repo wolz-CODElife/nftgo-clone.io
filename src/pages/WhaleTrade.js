@@ -4,6 +4,7 @@ import WhaleTrackingHeader from '../components/WhaleTrackingHeader';
 import MostWhalesInvolved from '../components/MostWhalesInvolved';
 import WhalesBought from '../components/WhalesBought';
 import TopBuyers from '../components/TopBuyers';
+import TopSellers from '../components/TopSellers';
 
 const WhaleTrade = () => {
   return (
@@ -14,7 +15,7 @@ const WhaleTrade = () => {
                 <WhalesBought />
                 <div className="columns">
                   <TopBuyers />
-                  <TopBuyers />
+                  <TopSellers />
                 </div>
             </WhaleTradePage>
         </>
