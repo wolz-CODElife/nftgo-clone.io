@@ -6,6 +6,11 @@ export const WhaleTradePage = styled.div`
     display: flex;
     flex-direction: column;
     
+    .columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+    }
     
     // ==============================================================
     // Media-query

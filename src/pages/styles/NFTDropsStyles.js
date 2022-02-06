@@ -56,7 +56,7 @@ export const NFTDropsPage = styled.div`
 
                 &:first-of-type {
                     background: ${lightColors.white};
-                    color: ${lightColors.grey};
+                    stroke: ${lightColors.grey};
                     margin-right: 15px;
                 }
                 

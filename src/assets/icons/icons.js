@@ -306,6 +306,12 @@ export const IconCaretDown = () => {
     )
 }
 
+export const IconBought = () => {
+    return (
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><g clipPath="url(#more-activity_svg__clip0)"><path d="M12 0a2 2 0 012 2v10a2 2 0 01-2 2H2a2 2 0 01-2-2V2a2 2 0 012-2h10z" fill="#fff"></path><path d="M14 12.444V1.556C14 .7 13.3 0 12.444 0H1.556C.7 0 0 .7 0 1.556v10.888C0 13.3.7 14 1.556 14h10.888C13.3 14 14 13.3 14 12.444zM3.111 4.667V3.11h5.445v1.556H3.11zm0 3.11V6.223h7.778v1.556H3.11zm0 3.112V9.333h3.111v1.556h-3.11z" fill="#5A66F9"></path></g><defs><clipPath id="more-activity_svg__clip0"><path d="M12 0a2 2 0 012 2v10a2 2 0 01-2 2H2a2 2 0 01-2-2V2a2 2 0 012-2h10z" fill="#fff"></path></clipPath></defs></svg>        
+    )
+}
+
 
 
 

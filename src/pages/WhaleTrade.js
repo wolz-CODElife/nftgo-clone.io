@@ -1,14 +1,21 @@
 import React from 'react';
 import { WhaleTradePage } from './styles/WhaleTradeStyle';
 import WhaleTrackingHeader from '../components/WhaleTrackingHeader';
-import AcccessibleTable from '../components/AcccessibleTable';
+import MostWhalesInvolved from '../components/MostWhalesInvolved';
+import WhalesBought from '../components/WhalesBought';
+import TopBuyers from '../components/TopBuyers';
 
 const WhaleTrade = () => {
   return (
         <>
             <WhaleTradePage>
                 <WhaleTrackingHeader />
-                <AcccessibleTable />
+                <MostWhalesInvolved />
+                <WhalesBought />
+                <div className="columns">
+                  <TopBuyers />
+                  <TopBuyers />
+                </div>
             </WhaleTradePage>
         </>
   );
